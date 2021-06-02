@@ -1,0 +1,20 @@
+.box {
+  width: 50%;
+  height: 50vh;
+  background-color: gray;
+  border: red 2px solid;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  flex: 1 1 200px;
+  background-color: red;
+  border: green 1px solid;
+}
+
+.item:nth-child(2) {
+  flex: 2 0 auto;
+}
